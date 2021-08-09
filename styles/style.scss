@@ -9,113 +9,112 @@ $ThirdColor: #F5FBF6;
 img {
     display: block;
     height: auto;
-    max-width: 50vw;
+    max-width: 100%;
   }
-
-body {
-    margin: 0 auto;
-    max-width: 1900px;
-    box-shadow: 10px 10px 8px #888888, -10px 10px 8px #888888;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    color: $PrimaryColor;
-    font-size: 4rem;
-    font-family: 'Spartan', sans-serif;
-}
-    
-h3 {
-    color: $SecondaryColor;
-    font-size: 2rem;
-    font-family: 'Spartan', sans-serif;
-}
-
+  
 hr {
-    max-width: 10%;
-    color: $SecondaryColor;
-}
+            width: 20%;
+        }
 
 p {
-    font-size: 1.8rem;
-    font-family: 'Ubuntu', sans-serif;
-    color: $SecondaryColor;
-}    
+            text-align: center;
+            padding: 0px 20px 0px 20px;
+        }
 
-div { 
-    margin: auto;
-}
-.name-inspiration {
-    display: flex;
-    text-align: center;
-    background-color: $ThirdColor;
-    border: 1px solid #888888;
-    
-    p {
-        padding: 25px 40px
-    }
-}
+@media only screen and (max-width: 420px) {
 
-.mission-statement {
-    display: flex;
-    text-align: center;
-    background-color: $PrimaryColor;
-    border: 1px solid #888888;
-
-    h2 {
-        color: $ThirdColor;
-    }
-    
-    p {
-        padding: 10px 150px;
-    }
-    
-}
-
-.what-we-do {
-    display: flex;
-    text-align: center;
-    background-color: $ThirdColor;
-
-    h2 {
-        color: $PrimaryColor;
+    body {
+        margin: 0 auto;
+        width: 85%;
+        box-shadow: 10px 10px 3px #888888, -10px 10px 3px #888888;
     }
 
-    .img-container {
-        margin: unset;
-    }
+    .name-inspiration {
 
-    ul {
-        font-size: 2rem;
-        color: $SecondaryColor;
-        text-align: left;
-    }
-
-    li {
-        padding: 10px;
-        padding-left: 20%;
-    }
-
-    
-}
-
-.about-me {
-        background-color: $PrimaryColor;
-        text-align: center;
-        height: 60vh;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        align-items: center;
+        justify-content: center;
+        color: $SecondaryColor;
+        background-color: $PrimaryColor;
+
+        img {
+            max-height: 150px;
+            margin-top: 20px;
+            border-radius: 40%;
+            // border: 0.5px solid $SecondaryColor;
+        }
 
         h2 {
             color: $ThirdColor;
+            -webkit-text-stroke: 0.7px $SecondaryColor;
+            font-size: 2rem;
         }
 
-        p {
-            font-size: 2rem;
-            padding: 0px 200px;
+        h3 {
+            font-size: 1.1rem;
         }
+
+        
+
     }
+
+    .mission-statement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $SecondaryColor;
+
+        h2 {
+            color: $PrimaryColor;
+            -webkit-text-stroke: 0.7px $SecondaryColor;
+            font-size: 2rem;
+        }
+
+        img {
+            max-height: 300px;
+            width: 100vw;
+        }
+        
+    }
+
+    .what-we-do {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $PrimaryColor;
+        color: $SecondaryColor;
+
+        h2 {
+            color: $ThirdColor;
+            -webkit-text-stroke: 0.7px $SecondaryColor;
+            font-size: 2rem;
+        }
+
+        img {
+            max-height: 250px;
+            margin-top: 20px;
+            border-radius: 20%;
+            border: 0.5px solid $SecondaryColor;
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+
+            li:before {
+                content: '✓';
+                padding-right: 20px;
+            }
+            
+            li { 
+                padding-bottom: 10px;
+            }
+        }
+
+    }
+    
+}
