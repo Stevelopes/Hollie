@@ -20,6 +20,10 @@ hr {
     background-color: #F7DE64;
   }
 
+  h1 {
+    font-family: "Spartan", sans-serif;
+  }
+
   h3 {
     font-size: 1.05rem;
     color: #F7DE64;
