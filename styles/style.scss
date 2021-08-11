@@ -18,15 +18,53 @@ hr {
 
 p {
             text-align: center;
-            padding: 0px 20px 0px 20px;
+            padding: 0px 14px 0px 14px;
         }
+
 
 @media only screen and (max-width: 420px) {
 
     body {
         margin: 0 auto;
         width: 85%;
-        box-shadow: 10px 10px 3px #888888, -10px 10px 3px #888888;
+        // box-shadow: 10px 10px 3px #888888, -10px 10px 3px #888888;
+        background-image: url(../Images/tree.jpg);
+        background-attachment: fixed;
+    }
+
+    h3 {
+        font-size: 1.05rem;
+        color: $PrimaryColor;
+        -webkit-text-stroke: 0.7px $SecondaryColor;
+    }
+
+    h2 {
+        color: $PrimaryColor;
+        -webkit-text-stroke: 0.7px $SecondaryColor;
+        font-size: 1.8rem;
+    }
+
+    .header {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $SecondaryColor;
+        background-color: $ThirdColor;
+        opacity: 0.9;
+        border-radius: 5%;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: $PrimaryColor;
+            padding: 10px;    
+        }
+        
+        a:hover {
+                color: lightgreen;
+            }
     }
 
     .name-inspiration {
@@ -36,26 +74,16 @@ p {
         align-items: center;
         justify-content: center;
         color: $SecondaryColor;
-        background-color: $PrimaryColor;
+        background-color: $ThirdColor;
+        opacity: 0.9;
+        border-radius: 5%;
+        margin-top: 20px;
 
         img {
             max-height: 150px;
             margin-top: 20px;
             border-radius: 40%;
-            // border: 0.5px solid $SecondaryColor;
         }
-
-        h2 {
-            color: $ThirdColor;
-            -webkit-text-stroke: 0.7px $SecondaryColor;
-            font-size: 2rem;
-        }
-
-        h3 {
-            font-size: 1.1rem;
-        }
-
-        
 
     }
 
@@ -64,17 +92,16 @@ p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-color: $ThirdColor;
         color: $SecondaryColor;
-
-        h2 {
-            color: $PrimaryColor;
-            -webkit-text-stroke: 0.7px $SecondaryColor;
-            font-size: 2rem;
-        }
+        opacity: 0.9;
+        border-radius: 5%;
+        margin-top: 20px;
 
         img {
             max-height: 300px;
             width: 100vw;
+            border-radius: 5%;
         }
         
     }
@@ -85,14 +112,13 @@ p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: $PrimaryColor;
         color: $SecondaryColor;
+        background-color: $ThirdColor;
+        color: $SecondaryColor;
+        opacity: 0.9;
+        border-radius: 5%;
+        margin-top: 20px;
 
-        h2 {
-            color: $ThirdColor;
-            -webkit-text-stroke: 0.7px $SecondaryColor;
-            font-size: 2rem;
-        }
 
         img {
             max-height: 250px;

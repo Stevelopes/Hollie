@@ -15,14 +15,47 @@ hr {
 
 p {
   text-align: center;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 14px 0px 14px;
 }
 
 @media only screen and (max-width: 420px) {
   body {
     margin: 0 auto;
     width: 85%;
-    box-shadow: 10px 10px 3px #888888, -10px 10px 3px #888888;
+    background-image: url(../Images/tree.jpg);
+    background-attachment: fixed;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    color: #F7DE64;
+    -webkit-text-stroke: 0.7px #555555;
+  }
+
+  h2 {
+    color: #F7DE64;
+    -webkit-text-stroke: 0.7px #555555;
+    font-size: 1.8rem;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #555555;
+    background-color: #F5FBF6;
+    opacity: 0.9;
+    border-radius: 5%;
+    text-align: center;
+  }
+  .header a {
+    text-decoration: none;
+    color: #F7DE64;
+    padding: 10px;
+  }
+  .header a:hover {
+    color: lightgreen;
   }
 
   .name-inspiration {
@@ -31,20 +64,15 @@ p {
     align-items: center;
     justify-content: center;
     color: #555555;
-    background-color: #F7DE64;
+    background-color: #F5FBF6;
+    opacity: 0.9;
+    border-radius: 5%;
+    margin-top: 20px;
   }
   .name-inspiration img {
     max-height: 150px;
     margin-top: 20px;
     border-radius: 40%;
-  }
-  .name-inspiration h2 {
-    color: #F5FBF6;
-    -webkit-text-stroke: 0.7px #555555;
-    font-size: 2rem;
-  }
-  .name-inspiration h3 {
-    font-size: 1.1rem;
   }
 
   .mission-statement {
@@ -52,16 +80,16 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #F5FBF6;
     color: #555555;
-  }
-  .mission-statement h2 {
-    color: #F7DE64;
-    -webkit-text-stroke: 0.7px #555555;
-    font-size: 2rem;
+    opacity: 0.9;
+    border-radius: 5%;
+    margin-top: 20px;
   }
   .mission-statement img {
     max-height: 300px;
     width: 100vw;
+    border-radius: 5%;
   }
 
   .what-we-do {
@@ -69,13 +97,12 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #F7DE64;
     color: #555555;
-  }
-  .what-we-do h2 {
-    color: #F5FBF6;
-    -webkit-text-stroke: 0.7px #555555;
-    font-size: 2rem;
+    background-color: #F5FBF6;
+    color: #555555;
+    opacity: 0.9;
+    border-radius: 5%;
+    margin-top: 20px;
   }
   .what-we-do img {
     max-height: 250px;
