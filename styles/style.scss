@@ -65,7 +65,7 @@ hr {
 
         a {
             text-decoration: none;
-            color: $PrimaryColor;
+            color: $SecondaryColor;
             padding-right: 10px;   
         }
         
@@ -121,7 +121,6 @@ hr {
         justify-content: center;
         color: $SecondaryColor;
         background-color: $ThirdColor;
-        color: $SecondaryColor;
         opacity: 0.9;
         border-radius: 20px;
         margin-top: 20px;
@@ -147,6 +146,33 @@ hr {
                 padding-bottom: 10px;
             }
         }
+
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $SecondaryColor;
+        background-color: $ThirdColor;
+        opacity: 0.9;
+        border-radius: 20px;
+        margin-top: 20px;
+
+    }
+
+    .contact {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $SecondaryColor;
+        background-color: $ThirdColor;
+        opacity: 0.9;
+        border-radius: 20px;
+        margin-top: 20px;
 
     }
     
