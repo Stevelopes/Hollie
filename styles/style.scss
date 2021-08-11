@@ -29,26 +29,29 @@ hr {
 
     h1 {
         font-family: 'Spartan', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.5rem;
     }
 
     h3 {
-        font-size: 1.05rem;
-        color: $PrimaryColor;
-        -webkit-text-stroke: 0.7px $SecondaryColor;
+        font-size: 0.8rem;
+        color: $SecondaryColor;
         font-family: 'Spartan', sans-serif;
+        text-transform: uppercase;
     }
 
     h2 {
         color: $PrimaryColor;
-        -webkit-text-stroke: 0.7px $SecondaryColor;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         font-family: 'Spartan', sans-serif;
+        text-transform: uppercase;
     }
     
     p {
             text-align: center;
             padding: 0px 14px 0px 14px;
             font-family: 'Ubuntu', sans-serif;
+            margin: 5px;
         }
 
     .header {
@@ -62,6 +65,7 @@ hr {
         opacity: 0.9;
         border-radius: 20px;
         text-align: center;
+        margin-top: 10px;
 
         div {
              margin-bottom: 10px;
@@ -74,7 +78,7 @@ hr {
         }
         
         a:hover {
-                color: lightgreen;
+                color: lightskyblue;
             }
     }
 
@@ -127,7 +131,7 @@ hr {
         background-color: $ThirdColor;
         opacity: 0.9;
         border-radius: 20px;
-        margin-top: 20px;
+        margin: 20px 0px;
 
 
         img {
@@ -176,7 +180,7 @@ hr {
         background-color: $ThirdColor;
         opacity: 0.9;
         border-radius: 20px;
-        margin-top: 20px;
+        margin: 20px 0px;
 
     }
     

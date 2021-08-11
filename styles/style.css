@@ -22,26 +22,29 @@ hr {
 
   h1 {
     font-family: "Spartan", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
   }
 
   h3 {
-    font-size: 1.05rem;
-    color: #F7DE64;
-    -webkit-text-stroke: 0.7px #555555;
+    font-size: 0.8rem;
+    color: #555555;
     font-family: "Spartan", sans-serif;
+    text-transform: uppercase;
   }
 
   h2 {
     color: #F7DE64;
-    -webkit-text-stroke: 0.7px #555555;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: "Spartan", sans-serif;
+    text-transform: uppercase;
   }
 
   p {
     text-align: center;
     padding: 0px 14px 0px 14px;
     font-family: "Ubuntu", sans-serif;
+    margin: 5px;
   }
 
   .header {
@@ -54,6 +57,7 @@ hr {
     opacity: 0.9;
     border-radius: 20px;
     text-align: center;
+    margin-top: 10px;
   }
   .header div {
     margin-bottom: 10px;
@@ -64,7 +68,7 @@ hr {
     padding-right: 10px;
   }
   .header a:hover {
-    color: lightgreen;
+    color: lightskyblue;
   }
 
   .name-inspiration {
@@ -110,7 +114,7 @@ hr {
     background-color: #F5FBF6;
     opacity: 0.9;
     border-radius: 20px;
-    margin-top: 20px;
+    margin: 20px 0px;
   }
   .what-we-do img {
     max-height: 250px;
@@ -151,6 +155,6 @@ hr {
     background-color: #F5FBF6;
     opacity: 0.9;
     border-radius: 20px;
-    margin-top: 20px;
+    margin: 20px 0px;
   }
 }/*# sourceMappingURL=style.css.map */
