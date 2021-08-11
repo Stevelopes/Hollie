@@ -13,29 +13,31 @@ hr {
   width: 20%;
 }
 
-p {
-  text-align: center;
-  padding: 0px 14px 0px 14px;
-}
-
 @media only screen and (max-width: 420px) {
   body {
     margin: 0 auto;
     width: 85%;
-    background-image: url(../Images/tree.jpg);
-    background-attachment: fixed;
+    background-color: #F7DE64;
   }
 
   h3 {
     font-size: 1.05rem;
     color: #F7DE64;
     -webkit-text-stroke: 0.7px #555555;
+    font-family: "Spartan", sans-serif;
   }
 
   h2 {
     color: #F7DE64;
     -webkit-text-stroke: 0.7px #555555;
     font-size: 1.8rem;
+    font-family: "Spartan", sans-serif;
+  }
+
+  p {
+    text-align: center;
+    padding: 0px 14px 0px 14px;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .header {
@@ -46,13 +48,16 @@ p {
     color: #555555;
     background-color: #F5FBF6;
     opacity: 0.9;
-    border-radius: 5%;
+    border-radius: 20px;
     text-align: center;
+  }
+  .header div {
+    margin-bottom: 10px;
   }
   .header a {
     text-decoration: none;
     color: #F7DE64;
-    padding: 10px;
+    padding-right: 10px;
   }
   .header a:hover {
     color: lightgreen;
@@ -66,7 +71,7 @@ p {
     color: #555555;
     background-color: #F5FBF6;
     opacity: 0.9;
-    border-radius: 5%;
+    border-radius: 20px;
     margin-top: 20px;
   }
   .name-inspiration img {
@@ -83,7 +88,7 @@ p {
     background-color: #F5FBF6;
     color: #555555;
     opacity: 0.9;
-    border-radius: 5%;
+    border-radius: 20px;
     margin-top: 20px;
   }
   .mission-statement img {
@@ -101,7 +106,7 @@ p {
     background-color: #F5FBF6;
     color: #555555;
     opacity: 0.9;
-    border-radius: 5%;
+    border-radius: 20px;
     margin-top: 20px;
   }
   .what-we-do img {

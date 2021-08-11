@@ -16,10 +16,7 @@ hr {
             width: 20%;
         }
 
-p {
-            text-align: center;
-            padding: 0px 14px 0px 14px;
-        }
+
 
 
 @media only screen and (max-width: 420px) {
@@ -27,22 +24,28 @@ p {
     body {
         margin: 0 auto;
         width: 85%;
-        // box-shadow: 10px 10px 3px #888888, -10px 10px 3px #888888;
-        background-image: url(../Images/tree.jpg);
-        background-attachment: fixed;
+        background-color: $PrimaryColor;
     }
 
     h3 {
         font-size: 1.05rem;
         color: $PrimaryColor;
         -webkit-text-stroke: 0.7px $SecondaryColor;
+        font-family: 'Spartan', sans-serif;
     }
 
     h2 {
         color: $PrimaryColor;
         -webkit-text-stroke: 0.7px $SecondaryColor;
         font-size: 1.8rem;
+        font-family: 'Spartan', sans-serif;
     }
+    
+    p {
+            text-align: center;
+            padding: 0px 14px 0px 14px;
+            font-family: 'Ubuntu', sans-serif;
+        }
 
     .header {
 
@@ -53,13 +56,17 @@ p {
         color: $SecondaryColor;
         background-color: $ThirdColor;
         opacity: 0.9;
-        border-radius: 5%;
+        border-radius: 20px;
         text-align: center;
+
+        div {
+             margin-bottom: 10px;
+        }
 
         a {
             text-decoration: none;
             color: $PrimaryColor;
-            padding: 10px;    
+            padding-right: 10px;   
         }
         
         a:hover {
@@ -76,7 +83,7 @@ p {
         color: $SecondaryColor;
         background-color: $ThirdColor;
         opacity: 0.9;
-        border-radius: 5%;
+        border-radius: 20px;
         margin-top: 20px;
 
         img {
@@ -95,7 +102,7 @@ p {
         background-color: $ThirdColor;
         color: $SecondaryColor;
         opacity: 0.9;
-        border-radius: 5%;
+        border-radius: 20px;
         margin-top: 20px;
 
         img {
@@ -116,7 +123,7 @@ p {
         background-color: $ThirdColor;
         color: $SecondaryColor;
         opacity: 0.9;
-        border-radius: 5%;
+        border-radius: 20px;
         margin-top: 20px;
 
 
