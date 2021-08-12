@@ -19,12 +19,13 @@ hr {
 
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 600px) {
 
     body {
         margin: 0 auto;
         width: 85%;
         background-color: $PrimaryColor;
+        text-align: center;
     }
 
     h1 {
@@ -49,9 +50,9 @@ hr {
     
     p {
             text-align: center;
-            padding: 0px 14px 0px 14px;
+            padding: 0% 5%;
             font-family: 'Ubuntu', sans-serif;
-            margin: 5px;
+            margin: 2%;
         }
 
     .header {
@@ -65,16 +66,18 @@ hr {
         opacity: 0.9;
         border-radius: 20px;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 5%;
 
         div {
-             margin-bottom: 10px;
+            display: flex;
+             margin-bottom: 3%;
         }
 
         a {
             text-decoration: none;
             color: $SecondaryColor;
-            padding-right: 10px;   
+            padding-right: 15%;
+            font-family: 'Ubuntu', sans-serif;  
         }
         
         a:hover {
@@ -92,11 +95,11 @@ hr {
         background-color: $ThirdColor;
         opacity: 0.9;
         border-radius: 20px;
-        margin-top: 20px;
+        margin-top: 5%;
 
         img {
             max-height: 150px;
-            margin-top: 20px;
+            margin-top: 12%;
             border-radius: 40%;
         }
 
@@ -111,12 +114,13 @@ hr {
         color: $SecondaryColor;
         opacity: 0.9;
         border-radius: 20px;
-        margin-top: 20px;
+        margin-top: 5%;
 
         img {
             max-height: 300px;
             width: 100vw;
             border-radius: 5%;
+            margin-top: 5%;
         }
         
     }
@@ -131,12 +135,12 @@ hr {
         background-color: $ThirdColor;
         opacity: 0.9;
         border-radius: 20px;
-        margin: 20px 0px;
+        margin: 5% 0%;
 
 
         img {
             max-height: 250px;
-            margin-top: 20px;
+            margin-top: 10%;
             border-radius: 20%;
             border: 0.5px solid $SecondaryColor;
         }
@@ -151,7 +155,7 @@ hr {
             }
             
             li { 
-                padding-bottom: 10px;
+                padding-bottom: 7%;
             }
         }
 
@@ -166,7 +170,7 @@ hr {
         background-color: $ThirdColor;
         opacity: 0.9;
         border-radius: 20px;
-        margin-top: 20px;
+        margin-top: 7%;
 
     }
 
@@ -180,7 +184,97 @@ hr {
         background-color: $ThirdColor;
         opacity: 0.9;
         border-radius: 20px;
-        margin: 20px 0px;
+        margin: 7% 0%;
+
+        .container {
+
+            max-width: 500px;
+            width: 90%;
+            margin: 0 auto;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Ubuntu', sans-serif;
+                text-align: left;
+                
+                
+                .form-group {
+                width: 100%;
+                margin-top: 3%;
+                display: flex;
+                flex-direction: column;
+                
+                input {
+                    width: 100%;
+                    margin-top: 2%;
+                }
+
+                textarea {
+                    width: 100%;
+                    margin-top: 2%;
+                    resize: vertical;
+                }
+
+
+            }
+
+            button[type="submit"] {
+                width: 100%;
+                border: none;
+                outline: none;
+                margin: 2%;
+                border-radius: 5px;
+                font-size: 1.5rem;
+                color: $SecondaryColor;
+                cursor: pointer;
+                transition: .3s ease background-color;
+            }
+
+            button[type="submit"]:hover {
+                background-color: $PrimaryColor;
+            }
+
+            }
+
+            
+        }
+
+        #status {
+            max-width: 500px;
+            width: 90%;
+            margin: 0 auto;
+            margin: 2%;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        #status.success {
+            background-color: lightgreen;
+            animation: status 4s ease forwards;
+        } 
+        #status.error {
+            background-color: lightcoral;
+            animation: status 4s ease forwards;
+        }
+
+        @keyframes status {
+            0% {
+                opacity: 1;
+                pointer-events: all;
+            }
+            90% {
+                opacity: 1;
+                pointer-events: all;
+            }
+            100% {
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
+
+        
 
     }
     
