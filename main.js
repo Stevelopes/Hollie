@@ -16,11 +16,11 @@ var form = document.getElementById("my-form");
         }
       }).then(response => {
         status.classList.add('success');  
-        status.innerHTML = "Thanks for your submission!";
+        status.innerHTML = "Thank you!";
         form.reset()
       }).catch(error => {
-        status.classList.add('error')  
-        status.innerHTML = "Oops! There was a problem submitting your form"
+        status.classList.add('error');  
+        status.innerHTML = "Oops! There was a problem submitting your form";
       });
     }
     form.addEventListener("submit", handleSubmit)

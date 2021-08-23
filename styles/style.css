@@ -47,6 +47,14 @@ p {
   margin: 2%;
 }
 
+a {
+  transition: 0.5s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -129,7 +137,7 @@ p {
   background-color: #F5FBF6;
   opacity: 0.9;
   border-radius: 20px;
-  margin: 5% 0%;
+  margin: 5% 0% 0%;
 }
 .what-we-do img {
   max-height: 250px;
@@ -155,9 +163,11 @@ footer {
   justify-content: center;
 }
 footer img {
-  max-height: 75px;
-  max-width: 75px;
-  margin: 1%;
+  max-height: 40px;
+  max-width: 40px;
+}
+footer a {
+  margin: 2%;
 }
 
 .about-me {
@@ -181,7 +191,7 @@ footer img {
   background-color: #F5FBF6;
   opacity: 0.9;
   border-radius: 20px;
-  margin: 7% 0%;
+  margin: 7% 0% 0%;
 }
 .contact .container {
   max-width: 500px;
@@ -204,11 +214,13 @@ footer img {
 .contact .container form .form-group input {
   width: 100%;
   margin-top: 2%;
+  background-color: #F5FBF6;
 }
 .contact .container form .form-group textarea {
   width: 100%;
   margin-top: 2%;
   resize: vertical;
+  background-color: #F5FBF6;
 }
 .contact .container form button[type=submit] {
   width: 100%;
@@ -233,12 +245,12 @@ footer img {
   font-size: 1.5rem;
   font-family: "Ubuntu", sans-serif;
 }
-.contact #status.success {
+.contact .success {
   background-color: lightgreen;
   -webkit-animation: status 4s ease forwards;
           animation: status 4s ease forwards;
 }
-.contact #status.error {
+.contact .error {
   background-color: lightcoral;
   -webkit-animation: status 4s ease forwards;
           animation: status 4s ease forwards;
@@ -303,8 +315,6 @@ footer img {
   }
 
   footer img {
-    max-height: 100px;
-    max-width: 100px;
     margin: 3%;
   }
 }
@@ -422,5 +432,24 @@ footer img {
     margin: 10% auto;
     border-radius: 1%;
     border: unset;
+  }
+
+  footer img {
+    max-height: 70px;
+    max-width: 70px;
+    margin: 3%;
+  }
+
+  .contact {
+    background-color: #F7DE64;
+  }
+  .contact .container form {
+    font-size: 1.3rem;
+  }
+  .contact .container button[type=submit] {
+    color: #F5FBF6;
+  }
+  .contact .container button[type=submit]:hover {
+    background-color: #555555;
   }
 }/*# sourceMappingURL=style.css.map */
