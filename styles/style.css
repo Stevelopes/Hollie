@@ -20,12 +20,6 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-family: "Spartan", sans-serif;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-}
-
 h3 {
   font-size: 0.8rem;
   color: #555555;
@@ -42,7 +36,7 @@ h2 {
 
 p {
   text-align: center;
-  padding: 0% 5%;
+  padding: 5% 5%;
   font-family: "Ubuntu", sans-serif;
   margin: 2%;
 }
@@ -66,6 +60,9 @@ a:hover {
   border-radius: 20px;
   text-align: center;
   margin-top: 5%;
+}
+.header img {
+  max-height: 200px;
 }
 .header div {
   display: flex;
@@ -181,6 +178,11 @@ footer a {
   border-radius: 20px;
   margin-top: 7%;
 }
+.about-me .thank-you {
+  font-family: "WindSong", cursive;
+  font-size: 2rem;
+  padding-top: 0;
+}
 
 .contact {
   display: flex;
@@ -285,10 +287,6 @@ footer a {
 }
 
 @media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-
   h3 {
     font-size: 1rem;
   }
@@ -304,6 +302,9 @@ footer a {
   .header div {
     margin-bottom: 2%;
     font-size: 1.2rem;
+  }
+  .header img {
+    max-height: 250px;
   }
 
   .mission-statement img {
@@ -355,6 +356,10 @@ footer a {
   .what-we-do ul {
     font-size: 1.3rem;
   }
+
+  .about-me .thank-you {
+    font-size: 3rem;
+  }
 }
 @media only screen and (min-width: 1200px) {
   body {
@@ -382,11 +387,11 @@ footer a {
   }
 
   .header {
-    background-color: #F7DE64;
     border-radius: unset;
+    margin-top: auto;
   }
-  .header h1 {
-    margin-top: 5%;
+  .header img {
+    max-height: 350px;
   }
 
   .flex-box {
@@ -425,13 +430,16 @@ footer a {
   }
 
   .what-we-do {
-    background-color: #F5FBF6;
+    background-color: #F7DE64;
   }
   .what-we-do img {
     max-height: unset;
     margin: 10% auto;
     border-radius: 1%;
     border: unset;
+  }
+  .what-we-do h2 {
+    color: #F5FBF6;
   }
 
   footer img {
@@ -451,5 +459,9 @@ footer a {
   }
   .contact .container button[type=submit]:hover {
     background-color: #555555;
+  }
+
+  .about-me .thank-you {
+    font-size: 4rem;
   }
 }/*# sourceMappingURL=style.css.map */
