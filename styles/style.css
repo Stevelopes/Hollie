@@ -405,6 +405,7 @@ footer a {
   .name-inspiration {
     border-radius: unset;
     background-color: #F5FBF6;
+    margin: 0 auto;
   }
   .name-inspiration img {
     max-height: unset;
@@ -431,6 +432,8 @@ footer a {
 
   .what-we-do {
     background-color: #F7DE64;
+    margin: 0 auto;
+    border-radius: unset;
   }
   .what-we-do img {
     max-height: unset;
@@ -450,6 +453,8 @@ footer a {
 
   .contact {
     background-color: #F7DE64;
+    margin: 0 auto;
+    border-radius: unset;
   }
   .contact .container form {
     font-size: 1.3rem;
@@ -461,6 +466,9 @@ footer a {
     background-color: #555555;
   }
 
+  .about-me {
+    margin: 0 auto;
+  }
   .about-me .thank-you {
     font-size: 4rem;
   }

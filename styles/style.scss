@@ -466,6 +466,7 @@ body {
 
         border-radius: unset;
         background-color: $ThirdColor; 
+        margin: 0 auto;
 
         img {
         max-height: unset;
@@ -500,6 +501,8 @@ body {
     .what-we-do {
 
         background-color: $PrimaryColor;
+        margin: 0 auto;
+        border-radius: unset;
 
         img {
             max-height: unset;
@@ -523,6 +526,8 @@ body {
    }
     .contact {
         background-color: $PrimaryColor;
+        margin: 0 auto;
+        border-radius: unset;
 
         .container {
 
@@ -545,6 +550,8 @@ body {
     }
 
     .about-me {
+        margin: 0 auto;
+        
         .thank-you {
             font-size: 4rem;
         }
